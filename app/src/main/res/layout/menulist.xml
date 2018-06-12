@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:background="#FFFFFF"
+    android:gravity="center">
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:useDefaultMargins="true">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/mainImg"
+            android:scaleType="centerInside"
+            android:background="#00ff0000"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:id="@+id/bt1"
+            android:layout_gravity="center"
+            android:background="@drawable/btnstyle"
+            android:text="이벤트"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:id="@+id/bt2"
+            android:layout_gravity="center"
+            android:text="피자 메뉴"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:background="@drawable/btnstyle"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:id="@+id/bt3"
+            android:layout_gravity="center"
+            android:text="사이드 메뉴"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:background="@drawable/btnstyle"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:id="@+id/bt4"
+            android:text="음료"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:background="@drawable/btnstyle"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:id="@+id/bt5"
+            android:layout_gravity="center"
+            android:background="@drawable/btnstyle"
+            android:text="주문하기"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+
+    </GridLayout>
+</LinearLayout>
